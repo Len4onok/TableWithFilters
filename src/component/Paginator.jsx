@@ -17,7 +17,7 @@ const Paginator = (props) => {
 
     const pageNumElem = pagesArr.map((p, index) => {
         return <span key={index} onClick={() => { onPageChange(p) }}
-            className={(p === props.currentPage) ? s.selected+' '+s.usual: s.usual}
+            className={(p === props.currentPage) ? s.usual +' '+s.selected: s.usual}
         >{p}</span>
     });
 

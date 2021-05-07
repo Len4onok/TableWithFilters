@@ -1,6 +1,6 @@
 
 .table td{
-    border: 1px solid white;
+    border: 2px solid white;
     text-align: center;
     padding: 5px;
 }
@@ -12,7 +12,7 @@
 }
 
 .table tbody{
-    background-color: #EBEAEF;
+    background-color: #f1f1f3;
 }
 
 .tableWrapper{
