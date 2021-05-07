@@ -6,7 +6,7 @@ let SET_TOTAL_COUNT='SET_TOTAL_COUNT';
 let SET_FILTER_DATA='SET_FILTER_DATA';
 
 let initialState = {
-    headers: [{ id:'1', date: 'Дата', name: 'Название', quantity: 'Количество', distance: 'Расстояние' }],
+    headers: [{ id:'1', date: 'Date', name: 'Name', quantity: 'Quantity', distance: 'Distance' }],
     operations: [],
     totalCount: 30,
     currentPage: 1,
